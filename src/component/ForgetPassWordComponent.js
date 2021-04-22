@@ -14,7 +14,7 @@ import { colors, fonts, screenWidth, screenHeight } from '../res/style/theme';
 import Images from '../res/image';
 import Header from './custom/Header';
 
-// import LottieView from 'lottie-react-native';
+import LottieView from 'lottie-react-native';
 
 import TextInputAnimated from './custom/TextInputAnimated';
 
@@ -59,7 +59,8 @@ export default class ForgetPassWordComponent extends Component {
                 
                 style={{height: 200, width: screenWidth}}
               />
-            </View> :<View style={{ justifyContent: 'center', alignItems: 'center' }}>
+            </View> :
+            <View style={{ justifyContent: 'center', alignItems: 'center' }}>
               <LottieView
                 source={require('../res/Json/16766-forget-password-animation.json')}
                 autoPlay
@@ -67,6 +68,7 @@ export default class ForgetPassWordComponent extends Component {
                 style={{height: 200, width: 200}}
               />
             </View> 
+            
              }
             
             <View style={{ width: '90%', marginLeft: 20, marginBottom: 10 }}>

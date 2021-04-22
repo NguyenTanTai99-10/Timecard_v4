@@ -186,6 +186,7 @@ export default class Login extends Component {
                         style={{ height: 100, width: 100, }}
                      />
                   </View>
+                  
 
                }
 
